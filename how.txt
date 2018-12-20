@@ -1,0 +1,32 @@
+first you need to generate the html page using DOM API(liElem, ulElem, etc...)
+
+sort images based on up to 3 properties
+give each image meta data using array
+this is how to create the array:
+var images =[
+                    {
+                    name: "Cute cat",
+                    likes: 20,
+                    dateUploaded: "23/18/2018",
+                    src: "images/cute-cat.png"
+                    },
+
+                    {
+                    name: "big cat",
+                    likes: 15,
+                    dateUploaded: "15/18/2018",
+                    src: "images/big-cat.png"
+                    }
+
+                    ]
+Objects
+Mouse Events
+
+you need to handle mouse events: if user selects sort crieteria 
+sort done by: sorting the array "images"
+then
+generate html elements using the new sorted array
+
+tips: use 2 functions
+1 for sorting array by property
+2 for generating html elements

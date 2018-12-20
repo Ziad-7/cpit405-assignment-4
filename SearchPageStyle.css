@@ -1,0 +1,91 @@
+li img {
+    width: 800px;
+    height: 800px;
+}
+
+#logo{
+    margin-left: 7em;
+    
+}
+
+#body{
+    background-color:white
+}
+
+.headerLinks{
+    text-decoration: none;
+    
+    color: black;
+    margin-left: 2.0em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    
+    font-weight: lighter;
+    
+    
+}
+
+a.headerLinks:hover{
+    color: dodgerblue;
+    
+}
+input{
+
+}
+
+#price{
+    margin-left: 35em;
+}
+
+#boards{
+    margin-left: 0.5em;
+}
+
+#signButton{
+    margin-left: 2.2em;
+    width: 87px;
+    height: 35px;
+    color:  rgb(116, 145, 199);
+    background-color: white;
+    border: 1px solid rgb(116, 145, 199);
+}
+#signButton:hover{
+    cursor: pointer;
+}
+
+#body{
+    text-align: center;
+    
+    background-color: whitesmoke;
+
+}
+#list{
+    height: 40px; 
+    background-color: rgb(224, 222, 233); 
+}
+#search{
+height: 40px;
+width: 1080px;
+background-color: rgb(224, 222, 233);
+
+font-size: 14px;
+}
+
+
+ul > li{
+list-style: none;
+}
+
+#bottom{
+   
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(94, 88, 88);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    
+    }
+#bottom span{
+    margin-left: 8em; 
+}
